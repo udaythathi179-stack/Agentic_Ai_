@@ -165,12 +165,12 @@ export default function ForecastPage() {
                   >
                     <div
                       style={{ height: `${upperPct}%` }}
-                      className="absolute bottom-0 w-full bg-cyan-500/10 border-t border-cyan-500/30 rounded-t-xl transition-all"
+                      className="absolute bottom-0 w-full bg-emerald-500/10 border-t border-emerald-500/30 rounded-t-xl transition-all"
                     />
 
                     <div
                       style={{ height: `${heightPct}%` }}
-                      className="relative z-10 w-9 sm:w-14 bg-gradient-to-t from-cyan-600 via-teal-500 to-emerald-400 rounded-t-lg shadow-[0_0_15px_rgba(6,182,212,0.4)] group-hover:brightness-125 transition-all"
+                      className="relative z-10 w-9 sm:w-14 bg-gradient-to-t from-emerald-700 via-emerald-500 to-green-400 rounded-t-lg shadow-[0_0_15px_rgba(16,185,129,0.4)] group-hover:brightness-125 transition-all"
                     />
 
                     <span className="text-xs font-mono font-bold text-white mt-2 group-hover:text-cyan-300">
@@ -186,11 +186,11 @@ export default function ForecastPage() {
 
             <div className="flex items-center justify-center gap-6 pt-3 text-xs border-t border-white/10 font-bold">
               <div className="flex items-center gap-2">
-                <div className="w-3.5 h-3.5 rounded bg-gradient-to-r from-cyan-500 to-emerald-400 shadow-[0_0_8px_#06b6d4]" />
-                <span className="text-cyan-300">Expected Forecast</span>
+                <div className="w-3.5 h-3.5 rounded bg-gradient-to-r from-emerald-600 to-green-400 shadow-[0_0_8px_#10b981]" />
+                <span className="text-emerald-300">Expected Forecast</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-3.5 h-3.5 rounded bg-cyan-500/20 border border-cyan-500/40" />
+                <div className="w-3.5 h-3.5 rounded bg-emerald-500/20 border border-emerald-500/40" />
                 <span className="text-slate-400">80% Bayesian Credible Interval</span>
               </div>
             </div>

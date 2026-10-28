@@ -226,7 +226,7 @@ export default function EvaluationPage() {
                   <div className="flex items-end gap-2">
                     <div
                       style={{ height: `${getBarHeightPx(currentData.wasteUnits.agentic)}px` }}
-                      className="w-7 sm:w-11 bg-gradient-to-t from-emerald-600 via-teal-500 to-emerald-400 rounded-t-lg shadow-[0_0_15px_rgba(16,185,129,0.4)] transition-all duration-500 hover:brightness-125"
+                      className="w-7 sm:w-11 bg-gradient-to-t from-green-700 via-emerald-500 to-green-400 rounded-t-lg shadow-[0_0_18px_rgba(16,185,129,0.55)] transition-all duration-500 hover:brightness-125"
                     />
                     <div
                       style={{ height: `${getBarHeightPx(currentData.wasteUnits.fifo)}px` }}
@@ -247,7 +247,7 @@ export default function EvaluationPage() {
                   <div className="flex items-end gap-2">
                     <div
                       style={{ height: `${getBarHeightPx(currentData.stockouts.agentic)}px` }}
-                      className="w-7 sm:w-11 bg-gradient-to-t from-emerald-600 via-teal-500 to-emerald-400 rounded-t-lg shadow-[0_0_15px_rgba(16,185,129,0.4)] transition-all duration-500 hover:brightness-125"
+                      className="w-7 sm:w-11 bg-gradient-to-t from-green-700 via-emerald-500 to-green-400 rounded-t-lg shadow-[0_0_18px_rgba(16,185,129,0.55)] transition-all duration-500 hover:brightness-125"
                     />
                     <div
                       style={{ height: `${getBarHeightPx(currentData.stockouts.fifo)}px` }}
@@ -268,7 +268,7 @@ export default function EvaluationPage() {
                   <div className="flex items-end gap-2">
                     <div
                       style={{ height: `${getBarHeightPx(currentData.netMarginUsd.agentic)}px` }}
-                      className="w-7 sm:w-11 bg-gradient-to-t from-emerald-600 via-teal-500 to-emerald-400 rounded-t-lg shadow-[0_0_15px_rgba(16,185,129,0.4)] transition-all duration-500 hover:brightness-125"
+                      className="w-7 sm:w-11 bg-gradient-to-t from-green-700 via-emerald-500 to-green-400 rounded-t-lg shadow-[0_0_18px_rgba(16,185,129,0.55)] transition-all duration-500 hover:brightness-125"
                     />
                     <div
                       style={{ height: `${getBarHeightPx(currentData.netMarginUsd.fifo)}px` }}
@@ -289,7 +289,7 @@ export default function EvaluationPage() {
                   <div className="flex items-end gap-2">
                     <div
                       style={{ height: `${getBarHeightPx(currentData.revenueUsd.agentic)}px` }}
-                      className="w-7 sm:w-11 bg-gradient-to-t from-emerald-600 via-teal-500 to-emerald-400 rounded-t-lg shadow-[0_0_15px_rgba(16,185,129,0.4)] transition-all duration-500 hover:brightness-125"
+                      className="w-7 sm:w-11 bg-gradient-to-t from-green-700 via-emerald-500 to-green-400 rounded-t-lg shadow-[0_0_18px_rgba(16,185,129,0.55)] transition-all duration-500 hover:brightness-125"
                     />
                     <div
                       style={{ height: `${getBarHeightPx(currentData.revenueUsd.fifo)}px` }}
